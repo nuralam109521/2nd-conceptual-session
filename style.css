@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    display: flex;
+    background-color: grey;
+    justify-content: space-around;
+}
+.nav-name{
+    font-size: 20px;
+    margin: 14px;
+    color: aliceblue;
+
+}
+.main-logo{
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+}
+.nav-itam{
+    color: aliceblue;
+    font-size: 18px;
+    display: flex;
+    margin: 30px;
+    gap: 20px;
+    list-style: none;
+    justify-content: space-around;
+}
+
+/* <!-- This is a main menu section --> */
+
+.banner-container{
+    height: 100vh;
+    background-image: url(icon/background.jpg), linear-gradient(to left, rgba(53, 39, 39, 0), rgb(32, 31, 31));;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.digital{
+    color: #FD6E0A;
+}
+.title{
+    font-size: 65px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.paragraph{
+    color: aliceblue;
+    padding: 10px;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    width: 50%;
+}
+.section-1{
+    font-size: 50px;
+    justify-content: space-around;
+    text-align: center;
+    text-align: center;
+}
+.btn{
+    border: none;
+}
+.btn-title{
+    padding: 15px 25px;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.btn-color{
+    background-color: #FD6E0A;
+    color: aliceblue;
+}
+
+
+
+.selection-2-btn-bottom{
+    display: flex;
+}
+.all-box{
+    display: flex;
+}
+
+.box-list{
+}
